@@ -1,94 +1,78 @@
-﻿# My-tourney
+# ECI-STAURANT
 
 Integrantes:
-* Juan Camilo Angel Hernandez
-* Juan Camilo Rojas Ortiz
-* Daniel Felipe Walteros Trujillo
-### Logo
-![](img/logo.png)
+* Andres Felipe Marcelo
+* Johan Sebastian Arias
+* German Simon Marin
 
 ### Descripción (antecedentes, problema que se resuelve, etc.):
-En el torneo de fútbol de la escuela y en otros torneos pequeños se detectaron varios problemas:
-* Uso de mecanismos de inscripción que dificultan o no permiten la validación de algunas restricciones
- como evitar que un jugador participe en dos equipos al tiempo o evitar equipos repetidos, además 
- estos mecanismos dificultan la modificación del equipo después del registro,situación
- que se presenta con frecuencia por la estructura del torneo
- 
-* Dificultad para registrar diferentes datos durante el torneo, ejemplos de esto son los puntos
-de los equipos, tarjetas,goles y otros sucesos de los partidos.
+Diariamente, los estudiantes de la Escuela Colombiana de Ingenieria se enfrentan a entornos caoticos a la hora del almuerzo, pues se presentan extensas filas en los restaurantes, existe un acaparamiento de mesas del campus por parte de otros estudiantes que no emplean las mismas para comer.
 
-* Dificultad para comunicar los hechos importantes de los partidos, la programación y las estadísticas
-de jugadores y equipos tanto a los participantes como a los espectadores
+Actualmente no existe una solucion para estas problematicas y como solución proponemos crear una aplicación web que permita administrar el manejo de las mesas de una manera mas óptima y el pedido de los almuerzos a travez de la aplicación.
 
-
-Ante estas dificultades actualmente se utilizan formularios de Google o planillas para
-registrar las inscripciones, y para informar datos sobre el torneo o no se tienen mecanismos para esto
-o se publican documentos en las oficinas donde se gestiona el torneo.
- 
-Para solucionar esto se propone una aplicación web que permita administrar un torneo de fútbol,
-facilitando la creación y aportando un valor agregado al desarrollo y finalización de este.Las principales
-funciones de la aplicación permitirán :
-* La inscipción de los equipos y la modificación de estos siempre y cuando
-se realice antes de la fecha limite de inscripción y antes que se complete el cupo máximo de equipos
-* Registrar los hechos más importantes de los partidos y los resultados de estos .
-* Mostrar a los diferentes usuarios la información de los partidos, de los equipos y de los jugadores del torneo
-* Generar reportes al finalizar el torneo
-* Generar los enfrentamientos entre los equipos 
 
 #### Diagrama de clases
 
-![](img/clases.png)
+![](img/class.png)
 
 #### Diagrama Entidad-Relación
 
-![](img/E-R.png)
+![](img/db.png)
 
- 
-### Resumen:
-
-Hemos visto que en el torneo de fútbol de la escuela y en otros torneos pequeños se presentan problemas relacionados con el proceso de inscripción, el registro de los datos que se generan durante el torneo, la comunicación de los hechos relevantes que ocurren en el desarrollo del torneo junto con la programación y la visualizacion de las estadísticas.
-
-Viendo que actualmente se utilizan formularios de Google o planillas para registrar las inscripciones, y  que para informar datos sobre el torneo realizan la pubicación de documentos en una oficina, se propuso una aplicación web que permita administrar un torneo de fútbol, facilitando de esta manera la inscripción de los equipos y la modificación de estos, además mediante la aplicación se podrán  registrar los hechos más importantes para que los usuarios puedan conocer el estado del partido en tiempo real, también podrán visualizar datos de los jugadores y equipos, finalmente se generarán reportes del torneo.
 
 ### Historias de usuario:
 
-![](img/arbitro.png)
+![](img/est.png)
 
-* Como arbitro quiero consultar que partidos debo arbitrar para poder asistir a todos a tiempo 
+* COMO estudiante
+QUIERO registrarme a la plataforma
+PARA PODER disfrutar de los beneficios de esta. 
 
-* Como arbitro
-  quiero registrar los sucesos que se presentan en los partidos para poder informar a jugadores,espectadores y otros arbitros sobre lo sucedido 
+
+* COMO estudiante
+QUIERO realizar pedidos
+PARA PODER evitar filas en los horarios de almuerzo
+
   
-* Como arbitro
-  Quiero consultar los datos de un jugador
-  Para poder verificar si tiene sanciones por tarjetas amarillas o rojas
+* COMO estudiante
+QUIERO buscar mesa
+PARA PODER encontrar facilmente una mesa disponible para comer
+
+* COMO estudiante
+QUIERO recibir mesa
+PARA PODER acceder facilmente una mesa disponible para comer
+
+
    
- ![](img/capitan.png)
+ ![](img/adm.png)
  
   
-* Como capitan
-  Quiero registrar mi equipo para poder participar en el torneo
-
-* Como capitan quiero poder añadir o eliminar jugadores de mi equipo  para poder modificar la composicion del equipo en cualquier momento antes de la ficha limite de inscripciones
-
-![](img/usuario.png)
-
-* Como usuario del sistema
-  quiero consultar las estadisticas de un jugador para poder informarme del rendimiento de este
-
-* Como usuario del sistema 
-  quiero consultar los sucesos que ocurrieron en un partido para poder saber de forma rapida lo mas importante del partido
-
-* Como usuario quiero consultar el estado de los partidos del torneo para poder saber rapidamente los resultados de los distintos equipos participantes
-
-* Como usuario quiero consultar las estadisticas de un equipo para poder saber el rendimiento de este
-
-![](img/adminh.png)
+* COMO administrador
+QUIERO administrar saldos
+PARA PODER tener actualizada la información de los saldos de los clientes
 
 
-* Como administrador quiero crear el tornero para poder organizar una competencia y permitir la inscripcion de equipos
+* COMO administrador
+  QUIERO administrar ecursos
+  PARA PODER ampliar,eliminar y controlar  los recursos ofrecidos
+ 
 
-* Como administrador quiero organizar los enfrentamientos entre los equipos para poder definir los partidos que se van a jugar en el torneo
+
+![](img/rest.png)
+
+* COMO restaurante
+QUIERO recibir pedidos
+PARA PODER agilizar manera de atender clientes
+
+ 
+
+
+* COMO restaurante
+QUIERO despachar pedidos
+PARA PODER entregar el producto solicitado
+
+
+
 ### Mockups
 
 #### Vista Home
