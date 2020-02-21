@@ -8,11 +8,10 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>arsw.ECI-Staurant</groupId>
-	<artifactId>eciStaurant</artifactId>
+	<groupId>edu.eci.arsw</groupId>
+	<artifactId>EciStaurant</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ECIstaurant</name>
-	<packaging>war</packaging>
+	<name>EciStaurant</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
