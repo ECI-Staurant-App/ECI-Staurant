@@ -79,7 +79,7 @@ PARA PODER entregar el producto solicitado
 
 ### Mockups
 
-Ver [Mockups](mockups/mock.md)
+Ver [Mockups](mockups)
 
 
 ### Backlog [Link backlog](https://tree.taiga.io/project/andresmarcelo7-eci-staurant-app/backlog)
