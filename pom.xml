@@ -12,6 +12,7 @@
 	<artifactId>EciStaurant</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EciStaurant</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
