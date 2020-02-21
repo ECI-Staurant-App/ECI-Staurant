@@ -79,3 +79,4 @@ PARA PODER entregar el producto solicitado
 
 ### Mockups
 
+Ver [Mockups](mockups/mock.md)
