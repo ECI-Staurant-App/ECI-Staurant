@@ -2,8 +2,10 @@ package edu.eci.arsw.EciStaurant;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"cistaurant"})
 public class EciStaurantApplication {
 
 	public static void main(String[] args) {
