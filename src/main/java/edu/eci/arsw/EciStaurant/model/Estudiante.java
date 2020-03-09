@@ -19,6 +19,8 @@ public class Estudiante implements Serializable {
     private int saldo;
     @Column(name = "email",nullable = false,length = 40)
     private String email;
+    @Column(name="passwd",nullable = false)
+    private String passwd;
 
     @OneToMany(mappedBy = "estudiante",cascade = CascadeType.ALL)
     Set<Pedido> pedidos= new HashSet<Pedido>();
@@ -27,11 +29,14 @@ public class Estudiante implements Serializable {
     @JoinColumn(name = "fk_restaurante")
     private Restaurante restaurante;
 
-    public Estudiante(int carne, String name, int saldo, String email) {
+
+    public Estudiante(int carne, String name, int saldo, String email,String passwd) {
         this.carne = carne;
         this.name = name;
         this.saldo = saldo;
         this.email = email;
+        this.passwd = passwd;
+
     }
 
     public Set<Pedido> getPedidos() {
@@ -82,9 +87,11 @@ public class Estudiante implements Serializable {
         this.email = email;
     }
 
+    public String getPasswd() {
+        return passwd;
+    }
 
-
-
-
-
+    public void setPasswd(String passwd) {
+        this.passwd = passwd;
+    }
 }
