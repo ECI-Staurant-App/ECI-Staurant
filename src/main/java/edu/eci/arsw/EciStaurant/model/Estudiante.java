@@ -9,6 +9,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
+//@Table(name="estudiantes")
 public class Estudiante implements Serializable {
 
     @Id

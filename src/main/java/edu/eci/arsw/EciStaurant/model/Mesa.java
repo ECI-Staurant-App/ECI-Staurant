@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+//@Table(name="mesas")
 public class Mesa implements Serializable {
 
     @GeneratedValue(strategy=GenerationType.AUTO)
