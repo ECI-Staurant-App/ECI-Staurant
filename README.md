@@ -1,4 +1,4 @@
-# ECI-STAURANT
+﻿# ECI-STAURANT
 
 Integrantes:
 * Andres Felipe Marcelo
@@ -23,6 +23,11 @@ Actualmente no existe una solucion para estas problematicas y como solución pro
 
 ![](img/db.png)
 
+#### Componentes
+
+![](img/componentes.png)
+
+A continuacion se presenta el diagrama de componentes
 
 ### Historias de usuario:
 
