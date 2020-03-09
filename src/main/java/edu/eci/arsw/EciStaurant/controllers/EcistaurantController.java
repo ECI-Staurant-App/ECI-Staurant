@@ -13,7 +13,6 @@ public class EcistaurantController {
         @Autowired
         private StudentRepository studenRepo;
 
-        @RequestMapping(method = RequestMethod.GET)
         public String getMensaje() {
             return "Estamos Trabajando en ECI-STAURANT ;)";
 

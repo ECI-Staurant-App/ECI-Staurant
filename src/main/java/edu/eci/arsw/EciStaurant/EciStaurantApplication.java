@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories
-@ComponentScan(basePackages = {"ecistaurant"})
+@ComponentScan
 public class EciStaurantApplication {
 
 	public static void main(String[] args) {
