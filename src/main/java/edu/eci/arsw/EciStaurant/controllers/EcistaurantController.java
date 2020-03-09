@@ -1,5 +1,7 @@
 package edu.eci.arsw.EciStaurant.controllers;
 
+import edu.eci.arsw.EciStaurant.Repository.StudentRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping( value = "/")
 public class EcistaurantController {
 
-
+        @Autowired
+        private StudentRepository studenRepo;
 
         @RequestMapping(method = RequestMethod.GET)
         public String getMensaje() {
-            String ans = "Estamos Trabajando en ECI-STAURANT ;)";
-            return ans;
+            return "Estamos Trabajando en ECI-STAURANT ;)";
 
     }
 }
